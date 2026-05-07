@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Download, Briefcase, ArrowRight, Sparkles, Code2, Palette } from "lucide-react";
-import profile from "@/assets/akash-profile.jpg";
+import profile from "@/assets/akash-profile.png";
 
 const ROLES = ["Developer", "Designer", "Freelancer", "AI Web Creator"];
 
