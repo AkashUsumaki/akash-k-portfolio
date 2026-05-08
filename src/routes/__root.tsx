@@ -77,10 +77,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Portfolio of Akash K — Web Developer, UI/UX Designer, and AI Website Creator building modern digital experiences." },
       { name: "author", content: "Akash K" },
       { property: "og:title", content: "Akash K — Developer, Designer & Freelancer" },
-      { property: "og:description", content: "Modern portfolio showcasing web development, AI websites, UI/UX, and creative design." },
+      { property: "og:description", content: "Portfolio of Akash K — Web Developer, UI/UX Designer, and AI Website Creator building modern digital experiences." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Akash K — Developer, Designer & Freelancer" },
+      { name: "twitter:description", content: "Portfolio of Akash K — Web Developer, UI/UX Designer, and AI Website Creator building modern digital experiences." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/9d4141f0-3487-48da-82da-93cd0553cfc4" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/9d4141f0-3487-48da-82da-93cd0553cfc4" },
     ],
     links: [
       {
