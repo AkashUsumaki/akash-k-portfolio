@@ -66,7 +66,7 @@ export function Hero() {
               <Briefcase className="size-4" /> Hire Me
               <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
             </a>
-            <a href="#" className="inline-flex items-center gap-2 px-5 py-3 rounded-xl glass hover:bg-white/10 transition">
+            <a href="/Akash-K-Resume.jpg" download="Akash-K-Resume.jpg" className="inline-flex items-center gap-2 px-5 py-3 rounded-xl glass hover:bg-white/10 transition">
               <Download className="size-4" /> Download Resume
             </a>
             <a href="#projects" className="inline-flex items-center gap-2 px-5 py-3 rounded-xl border border-border hover:bg-white/5 transition">
