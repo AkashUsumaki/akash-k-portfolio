@@ -6,13 +6,13 @@ import { Section } from "./Section";
 import { Github, Linkedin, Instagram, Mail, Phone, MessageCircle, Send, Briefcase, Loader2 } from "lucide-react";
 
 const socials = [
-  { icon: Github, label: "GitHub", href: "https://github.com" },
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
-  { icon: Instagram, label: "Instagram", href: "https://instagram.com" },
-  { icon: Mail, label: "Email", href: "mailto:akash@example.com" },
-  { icon: MessageCircle, label: "WhatsApp", href: "https://wa.me/910000000000" },
-  { icon: Phone, label: "Phone", href: "tel:+910000000000" },
-  { icon: Briefcase, label: "Freelancer", href: "https://freelancer.com" },
+  { icon: Github, label: "GitHub", href: "https://github.com/AkashUsumaki" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/akashkasiit" },
+  { icon: Instagram, label: "Instagram", href: "https://instagram.com/_mr_._unique_01" },
+  { icon: Mail, label: "Email", href: "mailto:akashan54321@gmail.com" },
+  { icon: MessageCircle, label: "WhatsApp", href: "https://wa.me/918610213770" },
+  { icon: Phone, label: "Phone", href: "tel:+918610213770" },
+  { icon: Briefcase, label: "Freelancer", href: "https://www.freelancer.in/u/akashkasi01" },
 ];
 
 export function Contact() {
