@@ -1,23 +1,7 @@
 import { motion } from "framer-motion";
 import { Section } from "./Section";
-import { Bot, Image as ImageIcon, ArrowUpRight, Github } from "lucide-react";
-
-const projects = [
-  {
-    icon: Bot,
-    title: "Multilingual AI Chatbot for Government Schemes & Scholarships",
-    tag: "AI · Full-stack",
-    desc: "AI-powered platform that helps users discover eligible government schemes and scholarships based on their personal details, with multilingual support and step-by-step guidance through the application process.",
-    tech: ["Python", "NLP", "React", "AI"],
-  },
-  {
-    icon: ImageIcon,
-    title: "Creative Poster Design Works",
-    tag: "Design · Branding",
-    desc: "A curated collection of poster designs for events, social campaigns, and brands — combining bold typography, color, and modern composition.",
-    tech: ["Photoshop", "Illustrator", "Branding"],
-  },
-];
+import { ArrowUpRight, Github } from "lucide-react";
+import { projects } from "@/data/projects";
 
 export function Projects() {
   return (
@@ -46,12 +30,16 @@ export function Projects() {
                 ))}
               </div>
               <div className="mt-6 flex items-center gap-3">
-                <a href="#" className="inline-flex items-center gap-1.5 text-sm text-primary hover:text-foreground transition">
-                  View case study <ArrowUpRight className="size-4" />
-                </a>
-                <a href="#" className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition">
-                  <Github className="size-4" /> Code
-                </a>
+                {p.caseStudyUrl && (
+                  <a href={p.caseStudyUrl} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 text-sm text-primary hover:text-foreground transition">
+                    View case study <ArrowUpRight className="size-4" />
+                  </a>
+                )}
+                {p.codeUrl && (
+                  <a href={p.codeUrl} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition">
+                    <Github className="size-4" /> Code
+                  </a>
+                )}
               </div>
             </div>
           </motion.article>
