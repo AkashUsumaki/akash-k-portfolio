@@ -3,7 +3,9 @@ import { Section } from "./Section";
 
 const technical = [
   { n: "HTML", v: 95 }, { n: "CSS", v: 92 }, { n: "JavaScript", v: 88 },
-  { n: "Python", v: 82 }, { n: "Java", v: 75 }, { n: "MySQL", v: 80 },
+  { n: "React", v: 88 }, { n: "NodeJS", v: 86 }, { n: "ExpressJS", v: 85 },
+  { n: "Python", v: 85 }, { n: "Java", v: 75 }, { n: "MySQL", v: 82 },
+  { n: "MongoDB", v: 80 }, { n: "ML", v: 78 }, { n: "Prompt with AI", v: 85 },
 ];
 const creative = [
   "Website Development", "AI Website Creation", "UI/UX Design",

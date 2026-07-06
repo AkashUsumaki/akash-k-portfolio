@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Download, Briefcase, ArrowRight, Sparkles, Code2, Palette } from "lucide-react";
 import profile from "@/assets/akash-profile.png";
 
-const ROLES = ["Developer", "Designer", "Freelancer", "AI Web Creator"];
+const ROLES = ["MERN Stack Developer", "AIML Engineer", "Data Analyst"];
 
 function Typewriter() {
   const [i, setI] = useState(0);
