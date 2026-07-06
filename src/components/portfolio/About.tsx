@@ -15,9 +15,9 @@ export function About() {
         <motion.p
           initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
           className="text-muted-foreground leading-relaxed text-base md:text-lg">
-          I'm <span className="text-foreground font-medium">Akash K</span>, a passionate web developer,
-          designer, freelancer, and AI website creator. I specialize in building responsive,
-          high-performance websites and crafting creative digital solutions for clients,
+          I'm <span className="text-foreground font-medium">Akash K</span>, a passionate MERN Stack Developer,
+          AIML Engineer, and Data Analyst. I specialize in building responsive,
+          high-performance web applications and crafting intelligent AI-driven solutions for clients,
           startups, and businesses around the world. From elegant UI design to AI-powered
           interfaces, I love turning ideas into polished, production-ready products that
           users genuinely enjoy.
