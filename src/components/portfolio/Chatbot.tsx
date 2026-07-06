@@ -11,7 +11,7 @@ const CHAT_URL = `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/chat`;
 export function Chatbot() {
   const [open, setOpen] = useState(false);
   const [msgs, setMsgs] = useState<Msg[]>([
-    { role: "assistant", content: "Hi! I'm Akash's AI assistant. Ask me about his services, projects, or how to hire him." },
+    { role: "assistant", content: "Hi! I'm Akash's AI assistant. Ask me about his capabilities, projects, or how to hire him." },
   ]);
   const [v, setV] = useState("");
   const [loading, setLoading] = useState(false);
