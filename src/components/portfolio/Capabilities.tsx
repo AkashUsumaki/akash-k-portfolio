@@ -13,9 +13,9 @@ const services = [
   { icon: Star, t: "Portfolio Website Creation", d: "Standout portfolios for creators, freelancers, and professionals." },
 ];
 
-export function Services() {
+export function Capabilities() {
   return (
-    <Section id="services" eyebrow="Services" title={<>What I can <span className="text-gradient">build for you</span></>}>
+    <Section id="capabilities" eyebrow="Capabilities" title={<>What I can <span className="text-gradient">build for you</span></>}>
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
         {services.map((s, i) => (
           <motion.div key={s.t}
