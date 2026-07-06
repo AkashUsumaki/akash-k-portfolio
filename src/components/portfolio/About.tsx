@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { Section } from "./Section";
 
 const stats = [
-  { k: "20+", v: "Projects Delivered" },
-  { k: "15+", v: "Happy Clients" },
-  { k: "3+", v: "Years Experience" },
-  { k: "100%", v: "Client Focused" },
+  { k: "Problem Solving", v: "Analytical thinking for real-world challenges" },
+  { k: "Technical Skills", v: "Full-stack & AI/ML development expertise" },
+  { k: "Idea to Product", v: "Transforming concepts into real products" },
+  { k: "Perfectness", v: "Attention to detail in every deliverable" },
 ];
 
 export function About() {

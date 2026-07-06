@@ -14,7 +14,7 @@ const traits = [
 
 export function HireMe() {
   return (
-    <Section id="hire" eyebrow="For Recruiters & Clients" title={<>Why <span className="text-gradient">work with me</span></>}>
+    <Section id="hire" title={<>Why <span className="text-gradient">work with me</span></>}>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {traits.map((t, i) => (
           <motion.div key={t.t}

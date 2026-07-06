@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import { toast } from "sonner";
 import { motion } from "framer-motion";
 import { Section } from "./Section";
-import { Github, Linkedin, Instagram, Mail, Phone, MessageCircle, Send, Briefcase, Loader2 } from "lucide-react";
+import { Github, Linkedin, Instagram, Mail, Phone, MessageCircle, Send, Loader2 } from "lucide-react";
 
 const socials = [
   { icon: Github, label: "GitHub", href: "https://github.com/AkashUsumaki" },
@@ -12,7 +12,6 @@ const socials = [
   { icon: Mail, label: "Email", href: "mailto:akashan54321@gmail.com" },
   { icon: MessageCircle, label: "WhatsApp", href: "https://wa.me/918610213770" },
   { icon: Phone, label: "Phone", href: "tel:+918610213770" },
-  { icon: Briefcase, label: "Freelancer", href: "https://www.freelancer.in/u/akashkasi01" },
 ];
 
 export function Contact() {
