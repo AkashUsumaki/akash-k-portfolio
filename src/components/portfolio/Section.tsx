@@ -8,7 +8,7 @@ export function Section({ id, eyebrow, title, children }: { id: string; eyebrow?
         <motion.div
           initial={{ opacity: 0, y: 18 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
           className="mb-12 max-w-2xl">
-          <div className="text-xs font-medium tracking-[0.2em] uppercase text-primary mb-3">{eyebrow}</div>
+          {eyebrow && <div className="text-xs font-medium tracking-[0.2em] uppercase text-primary mb-3">{eyebrow}</div>}
           <h2 className="text-3xl md:text-5xl font-bold leading-tight">{title}</h2>
         </motion.div>
         {children}
