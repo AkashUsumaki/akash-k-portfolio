@@ -82,8 +82,15 @@ export function Hero() {
             <div className="absolute inset-0 rounded-full blur-3xl opacity-60" style={{ background: "var(--gradient-neon)" }} />
             <div className="absolute inset-0 rounded-full spin-slow"
               style={{ background: "conic-gradient(from 0deg, transparent, oklch(0.78 0.18 200 / 0.7), transparent 40%, oklch(0.7 0.27 320 / 0.7), transparent 80%)" }} />
-            <div className="absolute inset-2 rounded-full overflow-hidden glass-strong">
-              <img src={profile} alt="Akash K" width={768} height={768} className="size-full object-cover" />
+            <div className="absolute inset-2 profile-perspective">
+              <div className="profile-flip size-full">
+                <div className="profile-face rounded-full overflow-hidden glass-strong">
+                  <img src={profile} alt="Akash K" width={768} height={768} className="size-full object-cover" />
+                </div>
+                <div className="profile-face profile-face-back rounded-full overflow-hidden glass-strong" aria-hidden="true">
+                  <img src={profile} alt="" width={768} height={768} className="size-full object-cover" />
+                </div>
+              </div>
             </div>
             <motion.div animate={{ y: [0, -8, 0] }} transition={{ duration: 4, repeat: Infinity }}
               className="absolute -left-6 top-10 glass rounded-xl px-3 py-2 flex items-center gap-2 text-xs">

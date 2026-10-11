@@ -3,15 +3,13 @@ import emailjs from "@emailjs/browser";
 import { toast } from "sonner";
 import { motion } from "framer-motion";
 import { Section } from "./Section";
-import { Github, Linkedin, Instagram, Mail, Phone, MessageCircle, Send, Loader2 } from "lucide-react";
+import { Github, Linkedin, Instagram, Mail, Send, Loader2 } from "lucide-react";
 
 const socials = [
   { icon: Github, label: "GitHub", href: "https://github.com/AkashUsumaki" },
   { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/akashkasiit" },
   { icon: Instagram, label: "Instagram", href: "https://instagram.com/_mr_._unique_01" },
-  { icon: Mail, label: "Email", href: "mailto:akashan54321@gmail.com" },
-  { icon: MessageCircle, label: "WhatsApp", href: "https://wa.me/918610213770" },
-  { icon: Phone, label: "Phone", href: "tel:+918610213770" },
+  { icon: Mail, label: "Email", href: "mailto:720724110006@hicet.ac.in" },
 ];
 
 export function Contact() {

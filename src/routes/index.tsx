@@ -14,6 +14,16 @@ import { Chatbot } from "@/components/portfolio/Chatbot";
 import { Loader } from "@/components/portfolio/Loader";
 
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "Akash K | MERN Stack Developer, AIML Engineer & Data Analyst" },
+      { name: "description", content: "Explore Akash K's projects, technical skills and capabilities in MERN development, AI and data analysis. Contact Akash for opportunities." },
+      { property: "og:title", content: "Akash K | Development, AI & Data Analysis Portfolio" },
+      { property: "og:description", content: "Discover Akash K's work in MERN development, AI engineering and data analysis." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+  }),
   component: Index,
 });
 

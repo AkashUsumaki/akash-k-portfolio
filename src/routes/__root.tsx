@@ -83,8 +83,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:site", content: "@Lovable" },
       { name: "twitter:title", content: "Akash K — MERN Stack Developer, AIML Engineer & Data Analyst" },
       { name: "twitter:description", content: "Portfolio of Akash K — MERN Stack Developer, AIML Engineer, and Data Analyst building modern digital experiences." },
-      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/9d4141f0-3487-48da-82da-93cd0553cfc4" },
-      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/9d4141f0-3487-48da-82da-93cd0553cfc4" },
     ],
     links: [
       {
