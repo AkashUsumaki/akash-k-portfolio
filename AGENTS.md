@@ -1,0 +1,2 @@
+# Architecture rules
+- Keep profile-photo flip transforms in global CSS with a perspective wrapper and two backface-hidden faces of the same asset, so the portrait remains unmirrored and respects reduced-motion preferences.

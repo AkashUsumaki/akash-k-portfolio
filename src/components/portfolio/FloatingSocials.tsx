@@ -1,9 +1,8 @@
-import { Github, Linkedin, Instagram, MessageCircle } from "lucide-react";
+import { Github, Linkedin, Instagram } from "lucide-react";
 const items = [
   { icon: Github, href: "https://github.com/AkashUsumaki" },
   { icon: Linkedin, href: "https://www.linkedin.com/in/akashkasiit" },
   { icon: Instagram, href: "https://instagram.com/_mr_._unique_01" },
-  { icon: MessageCircle, href: "https://wa.me/918610213770" },
 ];
 export function FloatingSocials() {
   return (

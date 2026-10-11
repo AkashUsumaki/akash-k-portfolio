@@ -148,3 +148,23 @@
 
 @keyframes spin-slow { to { transform: rotate(360deg); } }
 .spin-slow { animation: spin-slow 18s linear infinite; }
+
+.profile-perspective { perspective: 1200px; }
+.profile-flip {
+  transform-style: preserve-3d;
+  animation: profile-flip 9s cubic-bezier(0.45, 0, 0.2, 1) infinite;
+}
+.profile-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.profile-face-back { transform: rotateY(180deg); }
+@keyframes profile-flip {
+  0%, 60% { transform: rotateY(0deg); }
+  88%, 100% { transform: rotateY(360deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .profile-flip, .float-y, .spin-slow { animation: none; }
+}
